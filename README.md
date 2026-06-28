@@ -131,7 +131,7 @@ Model performance was improved using:
 ├── app.py
 ├── requirements.txt
 ├── README.md
-
+```
 ## Results
 
 - Successfully compared multiple Machine Learning algorithms.
