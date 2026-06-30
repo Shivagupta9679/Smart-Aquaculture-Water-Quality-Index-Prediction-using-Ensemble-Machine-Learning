@@ -3,7 +3,7 @@
 
 Water quality is one of the most critical factors affecting aquaculture productivity and fish health. Poor water quality can lead to disease outbreaks, reduced growth, and significant economic losses.
 
-This project develops an end-to-end Machine Learning solution to predict the **Water Quality Index (WQI)** of aquaculture systems using physicochemical water parameters. Multiple regression algorithms are compared, the best-performing model is optimized using hyperparameter tuning, and Explainable AI (SHAP) is used to interpret model predictions.
+This project develops an end-to-end Machine Learning solution to predict the **Water Quality Index (WQI)** of aquaculture systems using physicochemical water parameters. Multiple regression algorithms are compared, the best-performing model is optimized using hyperparameter tuning.
 
 A Streamlit web application is also developed for real-time prediction and batch prediction.
 
@@ -45,10 +45,7 @@ A Streamlit web application is also developed for real-time prediction and batch
 - Seaborn
 - Scikit-learn
 - XGBoost
-- CatBoost
-- LightGBM
 - Joblib
-- Streamlit
 
   # 📊 Exploratory Data Analysis
 
@@ -67,7 +64,7 @@ The following analyses were performed:
 
 ---
 
-# ⚙️ Data Preprocessing
+## Data Preprocessing
 
 The preprocessing pipeline includes:
 
@@ -77,20 +74,14 @@ The preprocessing pipeline includes:
 - Train-Test Split
 - Feature Scaling
 - Data validation
-- Feature Scaling
-- Data validation
 
 ## Machine Learning Models
-
 - Linear Regression
 - Decision Tree Regressor
 - Random Forest Regressor
-- Extra Trees Regressor
 - Gradient Boosting Regressor
 - XGBoost Regressor
-- CatBoost Regressor
-- LightGBM Regressor
-
+  
  ##  Model Evaluation Metrics
 
 The models were evaluated using:
@@ -122,13 +113,8 @@ Model performance was improved using:
 │     04_Hyperparameter_Tuning.ipynb
 │
 ├── models/
-│     best_model.pkl
-│
-├── outputs/
-│     model_results.csv
-│     shap_feature_importance.csv
-│
-├── app.py
+│     best_model.pk
+
 ├── requirements.txt
 ├── README.md
 ```
@@ -137,7 +123,6 @@ Model performance was improved using:
 - Successfully compared multiple Machine Learning algorithms.
 - Identified the best-performing regression model.
 - Improved prediction accuracy using hyperparameter tuning.
-- Built an interactive Streamlit web application for prediction.
 
 ## Author
 
